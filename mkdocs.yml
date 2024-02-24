@@ -1,0 +1,10 @@
+site_name: pytest-kuunda
+site_description: pytest plugin to help with test data setup for PySpark tests
+site_author: Sven Hofstede
+
+theme: readthedocs
+
+repo_url: https://github.com/svenhofstede/pytest-kuunda
+
+pages:
+- Home: index.md
