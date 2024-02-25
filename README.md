@@ -1,68 +1,52 @@
-=============
-pytest-kuunda
-=============
+# pytest-kuunda
 
-.. image:: https://img.shields.io/pypi/v/pytest-kuunda.svg
-    :target: https://pypi.org/project/pytest-kuunda
-    :alt: PyPI version
+![PyPI version](https://img.shields.io/pypi/v/pytest-kuunda.svg)
 
-.. image:: https://img.shields.io/pypi/pyversions/pytest-kuunda.svg
-    :target: https://pypi.org/project/pytest-kuunda
-    :alt: Python versions
+![Python versions](https://img.shields.io/pypi/pyversions/pytest-kuunda.svg)
 
-.. image:: https://github.com/svenhofstede/pytest-kuunda/actions/workflows/main.yml/badge.svg
-    :target: https://github.com/svenhofstede/pytest-kuunda/actions/workflows/main.yml
-    :alt: See Build Status on GitHub Actions
+![See Build Status on GitHub Actions](https://github.com/svenhofstede/pytest-kuunda/actions/workflows/main.yml/badge.svg)
 
 pytest plugin to help with test data setup for PySpark tests
 
-----
 
 
-
-
-Features
---------
+## Features
 
 * TODO
 
 
-Requirements
-------------
+## Requirements
 
 * TODO
 
 
-Installation
-------------
+## Installation
 
 You can install "pytest-kuunda" via `pip`_ from `PyPI`_::
 
     $ pip install pytest-kuunda
 
 
-Usage
------
+## Usage
 
 ```python
 adad
 ```
 
 
-Contributing
-------------
+## Contributing
+
 Contributions are very welcome. Tests can be run with `tox`_, please ensure
 the coverage at least stays the same before you submit a pull request.
 
-License
--------
+## License
 
 Distributed under the terms of the `MIT`_ license, "pytest-kuunda" is free and open source software
 
 
-Issues
-------
+## Issues
 
 
+## Credits
 
 This `pytest`_ plugin was generated with `Cookiecutter`_ along with `@hackebrot`_'s `cookiecutter-pytest-plugin`_ template.
