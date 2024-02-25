@@ -39,5 +39,6 @@ dependencies = [
 ]
 [project.urls]
 Repository = "https://github.com/svenhofstede/pytest-kuunda"
+Homepage = "https://github.com/svenhofstede/pytest-kuunda"
 [project.entry-points.pytest11]
 django = "pytest_kuunda.plugin"
