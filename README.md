@@ -40,6 +40,15 @@ bbb,2
 ccc,3
 ```
 
+`my_test_data/expected.csv`
+
+```csv
+label,value,value_add_one
+aaa,1,2
+bbb,2,3
+ccc,3,4
+```
+
 `test_transformation.py`
 
 ```python
