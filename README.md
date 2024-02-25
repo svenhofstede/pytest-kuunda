@@ -24,8 +24,33 @@ You can install "pytest-kuunda" via `pip`_ from `PyPI`_::
 
 ## Usage
 
+`transformation.py`
+
 ```python
-adad
+def add_one(df: DataFrame):
+    return df.withColumn("value_add_one", col("value") + 1)
+```
+
+`my_test_data/input.csv`
+
+```csv
+label,value
+aaa,1
+bbb,2
+ccc,3
+```
+
+`test_transformation.py`
+
+```python
+@fixture
+def my_test_dir(kuunda_dir):
+    return kuunda_dir("my_test_data")
+
+def test_example_1(spark_fixture, my_test_dir):
+    result = add_one(my_test_dir["input_df"])
+
+    result.collect() == my_test_dir["expected_df").collect()
 ```
 
 
