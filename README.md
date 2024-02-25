@@ -1,9 +1,8 @@
 # pytest-kuunda
 
-![PyPI version](https://img.shields.io/pypi/v/pytest-kuunda.svg) ![Python versions](https://img.shields.io/pypi/pyversions/pytest-kuunda.svg) ![See Build Status on GitHub Actions](https://github.com/svenhofstede/pytest-kuunda/actions/workflows/main.yml/badge.svg)
+[<img src="https://img.shields.io/pypi/v/pytest-kuunda.svg">](https://pypi.org/project/pytest-kuunda) [<img src="https://img.shields.io/pypi/pyversions/pytest-kuunda.svg">](https://pypi.org/project/pytest-kuunda) [<img src="https://github.com/svenhofstede/pytest-kuunda/actions/workflows/main.yml/badge.svg">](https://github.com/svenhofstede/pytest-kuunda/actions/workflows/main.yml)
 
 pytest plugin to help with test data setup for PySpark tests
-
 
 
 ## Features
