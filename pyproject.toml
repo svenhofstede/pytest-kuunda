@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 name = "pytest-kuunda"
 description = "pytest plugin to help with test data setup for PySpark tests"
 version = "0.1.0"
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.8"
 authors = [
     { name = "Sven Hofstede", email = "info@svenhofstede.com" },
@@ -36,6 +36,7 @@ classifiers = [
 ]
 dependencies = [
     "pytest>=6.2.0",
+    "pyspark>=3"
 ]
 [project.urls]
 Repository = "https://github.com/svenhofstede/pytest-kuunda"
